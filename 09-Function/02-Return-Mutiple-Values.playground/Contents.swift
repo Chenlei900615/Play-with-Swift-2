@@ -34,7 +34,7 @@ func findMaxAndMin( numbers: [Int] ) -> ( max:Int , min:Int )?{
 var scores: [Int]? = [202, 1234, 5678, 334, 982, 555]
 
 scores = scores ?? []
-if let result = findMaxAndMin( scores! ){
+if let result = findMaxAndMin( numbers:scores! ){
     print("The max value is \(result.max)")
     print("The min value is \(result.min)")
 }
